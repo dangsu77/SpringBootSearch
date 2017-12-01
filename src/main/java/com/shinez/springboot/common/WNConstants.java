@@ -138,7 +138,7 @@ public class WNCollection {
 						"RANK/DESC,DATE/DESC",  // set sort field (field,order) multi sort '/'
 						"basic,prol,0",  // set sort field (field,order) multi sort '/'
 						"TITLE/100,CONTENT/40,ATTACHCON/20,ATTACHNAME",// set search field
-						"DOCID,Date,TITLE,CONTENT,ATTACHNAME,ATTACHCON,ATTACHEXT,PATH,JOIN_MST_CD,JOIN_MST_NM,BUZ_FROM_DD,BUZ_TO_DD,JOIN_FROM_DD,JOIN_TO_DD,LINK_URL,ALIAS",// set document field
+						"DOCID,Date,TITLE,CONTENT/200,ATTACHNAME,ATTACHCON,ATTACHEXT,PATH,JOIN_MST_CD,JOIN_MST_NM,BUZ_FROM_DD,BUZ_TO_DD,JOIN_FROM_DD,JOIN_TO_DD,LINK_URL,ALIAS",// set document field
 						"", // set date range
 						"", // set rank range
 						"<ALIAS:contains:notice>", // set prefix query, example: <fieldname:contains:value1>|<fieldname:contains:value2>/1,  (fieldname:contains:value) and ' ', or '|', not '!' / operator (AND:1, OR:0)
@@ -168,7 +168,7 @@ public class WNCollection {
 						"RANK/DESC,DATE/DESC",  // set sort field (field,order) multi sort '/'
 						"basic,prol,0",  // set sort field (field,order) multi sort '/'
 						"TITLE/100,CONTENT/40,ATTACHCON/20,ATTACHNAME",// set search field
-						"DOCID,Date,TITLE,CONTENT,ATTACHNAME,ATTACHCON,ATTACHEXT,PATH,BOARD_TYP_NM,IDEA_MST_CD,IDEA_MST_NM,TAG_NMS,CHOICE_NO,GOOD_LVL,LINK_URL,TERMS,ALIAS",// set document field
+						"DOCID,Date,TITLE,CONTENT/200,ATTACHNAME,ATTACHCON,ATTACHEXT,PATH,BOARD_TYP_NM,IDEA_MST_CD,IDEA_MST_NM,TAG_NMS,CHOICE_NO,GOOD_LVL,LINK_URL,TERMS,ALIAS",// set document field
 						"", // set date range
 						"", // set rank range
 						"<ALIAS:contains:idea>", // set prefix query, example: <fieldname:contains:value1>|<fieldname:contains:value2>/1,  (fieldname:contains:value) and ' ', or '|', not '!' / operator (AND:1, OR:0)
@@ -198,7 +198,7 @@ public class WNCollection {
 						"RANK/DESC,DATE/DESC",  // set sort field (field,order) multi sort '/'
 						"basic,prol,0",  // set sort field (field,order) multi sort '/'
 						"TITLE/100,CONTENT/40,ATTACHCON/20,ATTACHNAME",// set search field
-						"DOCID,Date,TITLE,CONTENT,ATTACHNAME,ATTACHCON,ATTACHEXT,PATH,TYP_NM,LINK_URL,ALIAS",// set document field
+						"DOCID,Date,TITLE,CONTENT/200,ATTACHNAME,ATTACHCON,ATTACHEXT,PATH,TYP_NM,LINK_URL,ALIAS",// set document field
 						"", // set date range
 						"", // set rank range
 						"<ALIAS:contains:homepage>", // set prefix query, example: <fieldname:contains:value1>|<fieldname:contains:value2>/1,  (fieldname:contains:value) and ' ', or '|', not '!' / operator (AND:1, OR:0)
@@ -228,7 +228,7 @@ public class WNCollection {
 						"RANK/DESC,DATE/DESC",  // set sort field (field,order) multi sort '/'
 						"basic,prol,0",  // set sort field (field,order) multi sort '/'
 						"TITLE/100,CONTENT/40,ATTACHCON/20,ATTACHNAME",// set search field
-						"DOCID,Date,TITLE,CONTENT,ATTACHNAME,ATTACHCON,ATTACHEXT,PATH,LINK_URL,DCOMP_LICEN_NO,DCOMP_TP_CD,ALIAS",// set document field
+						"DOCID,Date,TITLE,CONTENT/200,ATTACHNAME,ATTACHCON,ATTACHEXT,PATH,LINK_URL,DCOMP_LICEN_NO,DCOMP_TP_CD,ALIAS",// set document field
 						"", // set date range
 						"", // set rank range
 						"<ALIAS:contains:buz>", // set prefix query, example: <fieldname:contains:value1>|<fieldname:contains:value2>/1,  (fieldname:contains:value) and ' ', or '|', not '!' / operator (AND:1, OR:0)
